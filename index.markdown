@@ -10,7 +10,7 @@ title: ""
 
 ### **Overview**
 
-BaboonLand is a dataset comprised of 21 consecutive days of drone video footage shot following two troops of wild Olive Baboons in Laikipia, Northern Kenya. Troops were filmed as they left and returned from three known sleeping sites, morning and night. Over 10 hours of video footage were collected in several different environments, including at a sleeping tree, at a river, on a rock, during a river crossing, in an open savannah and on a cliff. Frames include up to 50 individuals who are simultaneously tracked at one time, which forms a complex and dense dataset of overlapping individuals from an aerial perspective. Three fundamental subtasks have been identified from the original dataset: detection, tracking, and behavior recognition. The data contains lots of visual noise from camera motion, varying light conditions, spectral contrast from shadow, and different background environments.
+BaboonLand is a dataset comprised of 21 consecutive days of drone video footage collected by following three troops of wild Olive baboons in Laikipia, Northern Kenya as they left and returned from known sleeping sites, morning and night. Over 10 hours of video footage were collected in several different environments, including at a sleeping tree, at a river, on a rock, during a river crossing, in an open savannah, and on a cliff. Frames include up to 70 individuals tracked simultaneously, which forms a complex and dense dataset of overlapping individuals from an aerial perspective. Three fundamental subtasks have been identified from the original dataset: detection, tracking, and behavior recognition. The data contains lots of visual noise from camera motion, varying light conditions, spectral contrast from shadow, and different background environments.
 
 This is the first dataset to automate the classification of primate behavior from aerial video. This enables inter-group interactions to be understood in context to the natural environment and in relation to the behavior of other troop members. Existing video datasets of primates are from camera traps or hand-held video recorders, which limits the number of individuals that can be seen in a frame at once and the spatial and temporal window in which behavior is observed. Using a mobile monitoring technique enables troop behavior to be observed collectively and at a scale relevant to the scale at which ecological choices are made.
 
@@ -36,25 +36,25 @@ We evaluate [YOLOv8-X](https://github.com/ultralytics/ultralytics) model with in
 
 ### **Tracking**
 
-An example of tracking from a drone flying over a cliff:
+An example of tracking over a cliff:
 
 <div class="demo"></div>
 
 ![](assets/gifs/tracking/tracking_1.gif)
 
-An example of tracking from a drone flying over a river:
+An example of tracking over a river:
 
 <div class="demo"></div>
 
 ![](assets/gifs/tracking/tracking_2.gif)
 
-An example of tracking from a drone flying over a tree:
+An example of tracking over a tree:
 
 <div class="demo"></div>
 
 ![](assets/gifs/tracking/tracking_3.gif)
 
-An example of tracking from a drone flying over a rock:
+An example of tracking over a rock:
 
 <div class="demo"></div>
 
