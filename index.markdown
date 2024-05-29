@@ -208,7 +208,14 @@ BaboonLand
 
 ### **Citation**
 ```BibTeX
-Coming soon...
+@misc{duporge2024baboonland,
+  title={BaboonLand Dataset: Tracking Primates in the Wild and Automating Behaviour Recognition from Drone Videos}, 
+  author={Isla Duporge and Maksim Kholiavchenko and Roi Harel and Dan Rubenstein and Meg Crofoot and Tanya Berger-Wolf and Stephen Lee and Scott Wolf and Julie Barreau and Jenna Kline and Michelle Ramirez and Chuck Stewart},
+  year={2024},
+  eprint={2405.17698},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}
 ```
 
 <style>
