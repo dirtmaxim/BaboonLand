@@ -15,9 +15,6 @@ This is the first dataset to automate the classification of non-human primate be
 
 Automatically tracking individual ethograms that form collective behavior can help us to unravel consistent patterns of group organization. Tracking individual exchanges enables triggers for switches in group behavior to be identified and a better understanding of why splinter groups emerge. In addition, various formations in attack and defense of territory can be mapped. Non-human primates are highly territorial and switch allegiances depending on resource availability and prior interactions. By automatically modeling these interactions, we can better understand group dynamics and tipping points in collective behavior, including the emergence of new group formation. This goal is to methodologically advance the analyses of social network structures and collective decision-making to improve predictive capabilities. Existing video datasets of primates are from camera traps or hand-held video recorders, which limits the number of individuals that can be seen in a frame at once and the spatial and temporal window in which behavior is observed. Using a mobile monitoring technique enables troop behavior to be observed collectively and at a scale relevant to the scale at which decisions are made.
 
-![image](https://github.com/dirtmaxim/BaboonLand/assets/131711668/bafa7e38-5b52-4d34-b0cd-6d850d9a471a)
-
-
 ---
 
 ### **Detection**
