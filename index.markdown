@@ -58,14 +58,17 @@ An example of tracking over a rock:
 
 ![](assets/gifs/tracking/tracking_4.gif)
 
-We evaluate [ByteTrack](https://arxiv.org/abs/2110.06864), and [BotSort](https://arxiv.org/abs/2206.14651) tracking algorithms on our dataset and report MOTA, MOTP, IDF1, Precision, and Recall.
+We evaluate [SORT](https://arxiv.org/abs/1602.00763), [DeepSORT](https://arxiv.org/abs/1703.07402), [StrongSORT](https://arxiv.org/abs/2202.13514), [ByteTrack](https://arxiv.org/abs/2110.06864), and [BotSort](https://arxiv.org/abs/2206.14651) tracking algorithms on our dataset and report MOTA, MOTP, IDF1, Precision, and Recall.
 
 <div class="tracking"></div>
 
 | Tracker | MOTA | MOTP | IDF1 | Precision | Recall |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+| SORT | **84.76** | 50.15 | 77.43 | 90.83 | 91.19 |
+| DeepSORT | 84.40 | **87.22** | 81.38 | 90.26 | **91.57** |
+| StrongSORT | 82.48 | 85.37 | **84.98** | 88.00 | 90.10 |
 | ByteTrack | 63.55 | 34.10 | 77.01 | 96.32 | 64.90 |
-| BotSort | **63.81** | **34.31** | **78.24** | **97.21** | **66.16** |
+| BotSort | 63.81 | 34.31 | 78.24 | **97.21** | 66.16 |
 
 ---
 
@@ -93,11 +96,12 @@ We evaluate [I3D](https://arxiv.org/abs/1705.07750), [SlowFast](https://arxiv.or
 
 <div class="behavior_recognition"></div>
 
-| Method | Micro  Top-1 | Micro Top-3 | Micro Top-5 | Macro Top-1 | Macro Top-3 | Macro Top-5 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| I3D | 61.29 | 89.38 | 92.34 | 26.53 | 54.51 | 65.47 |
-| SlowFast | 61.71 | 90.35 | 93.11 | 27.08 | 56.73 | 67.61 |
-| X3D | **63.97** | **91.34** | **95.17** | **30.04** | **60.58** | **72.13** |
+| Method | WI | Micro  Top-1 | Micro Top-3 | Micro Top-5 | Macro Top-1 | Macro Top-3 | Macro Top-5 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| I3D | Random | 61.29 | 89.38 | 92.34 | 26.53 | 54.51 | 65.47 |
+| SlowFast | Random | 61.71 | 90.35 | 93.11 | 27.08 | 56.73 | 67.61 |
+| X3D | Random| 63.97 | 91.34 | 95.17 | 30.04 | 60.58 | 72.13 |
+| X3D | K-400 | **64.89** | **92.54** | **96.66** | **31.41** | **62.04** | **74.01** |
 
 ---
 
